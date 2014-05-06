@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<u:SetTargetResponse xmlns:u="urn:schemas-upnp-org:service:SwitchPower:1">
+<JobID>250</JobID>
+</u:SetTargetResponse>

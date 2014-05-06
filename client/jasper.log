@@ -1,0 +1,42 @@
+2014-04-15 21:04:57,058 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 46, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Notifications.py", line 19, in handle
+    oauth_access_token = profile['keys']['FB_TOKEN']
+KeyError: 'keys'
+2014-04-15 21:21:12,309 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 46, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Weather.py", line 51, in handle
+    if not profile['location']:
+KeyError: 'location'
+2014-04-15 21:30:01,427 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 46, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Weather.py", line 51, in handle
+    if not profile['location']:
+KeyError: 'location'
+2014-04-29 22:32:44,344 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 47, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Music.py", line 19, in handle
+    with open("songoptions.txt", "r") as searchfile:
+IOError: [Errno 2] No such file or directory: 'songoptions.txt'
+2014-04-29 22:46:13,525 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 47, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Weather.py", line 51, in handle
+    if not profile['location']:
+KeyError: 'location'
+2014-04-29 22:57:06,813 ERROR Failed to execute module
+Traceback (most recent call last):
+  File "/home/pi/jasper/client/brain.py", line 47, in query
+    module.handle(text, self.mic, self.profile)
+  File "/home/pi/jasper/client/modules/Weather.py", line 55, in handle
+    if not profile['location']:
+KeyError: 'location'
